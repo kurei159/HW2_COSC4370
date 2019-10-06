@@ -251,10 +251,12 @@ void problem4() {
 		glScalef(0.75, 0.75, 0.75);
 		glRotatef(35, 0, 0, 1);
 		glutSolidOctahedron();
+		glPushMatrix();
 		glTranslatef(0, 0, transZ2);
 		glScalef(0.75, 0.75, 0.75);
 		glRotatef(35, 0, 0, 1);
 		glutSolidOctahedron();
+		glPopMatrix();
 		glPopMatrix();
 	}
 
